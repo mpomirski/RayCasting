@@ -48,7 +48,7 @@ function draw() {
     noStroke();
     const sq = scene[i] * scene[i];
     const wSq = sceneW * sceneW;
-    const brightness = map(sq, 0, wSq, 255, 0);
+    const brightness = map(sq, 0, wSq, 200, 0);
     fill(brightness);
     rectMode(CENTER);
     rect(i * w + w/2, sceneH / 2, w+1, h);
